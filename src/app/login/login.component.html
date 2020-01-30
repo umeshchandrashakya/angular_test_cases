@@ -1,0 +1,20 @@
+<p>login works!</p>
+
+<form (ngSubmit)="login()">
+  <label>Email</label>
+  <input
+    type="email"
+    formControlName="email"
+    id="email"
+    ng-model="email"
+    name="username"
+  /><br /><br />
+  <label>Password</label>
+  <input
+    type="password"
+    formControlName="password"
+    id="password"
+    ng-model="pass"
+  /><br /><br />
+  <button type="submit" id="button" value="Submit">Login</button>
+</form>
